@@ -8,7 +8,8 @@ const app = express();
 
 // ✅ Apply CORS before everything
 app.use(cors({
-  origin: process.env.CLIENT_URL,
+  origin: "https://my-portfolio-ahiw.onrender.com",
+  methods: ["GET", "POST", "OPTIONS"],
   credentials: true,
 }));
 
