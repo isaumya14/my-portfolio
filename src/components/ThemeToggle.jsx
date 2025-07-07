@@ -7,18 +7,19 @@ const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-   const storedTheme=localStorage.getItem("theme");
-   if(storedTheme==="dark"){
-    setIsDarkMode(true);
-    document.documentElement.classList.add("dark");
-   }else{
-    setIsDarkMode(false);
-    document.documentElement.classList.remove("dark");
-
-   }
+    const storedTheme = localStorage.getItem("theme");
+    if (storedTheme === "dark" || storedTheme === null) {
+      setIsDarkMode(true);
+      document.documentElement.classList.add("dark");
+    } else {
+      setIsDarkMode(false);
+      document.documentElement.classList.remove("dark");
+    }
+  }, []);
+  
    
     
-  }, []) // EMPTY DEPENDENCY RUNS ONLY ONCE
+   // EMPTY DEPENDENCY RUNS ONLY ONCE
   
   const toggleTheme=() =>{
     if(isDarkMode){
