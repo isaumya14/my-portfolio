@@ -205,7 +205,7 @@ const ContactSection = () => {
                 type="submit"
                 disabled={isSubmitting}
                 className={cn(
-                  "w-full flex items-center justify-center gap-2 px-6 py-3 bg-pink-900 text-primary-foreground rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  "w-full flex items-center justify-center gap-2 px-6 py-3 bg-pink-900 text-primary-foreground rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursorr-pointer hover:bg-pink-800 focus:outline-none focus:ring-2 focus:ring-pink-700",
                 )}
               >
                 {isSubmitting ? "Sending..." : "Send Message"}
