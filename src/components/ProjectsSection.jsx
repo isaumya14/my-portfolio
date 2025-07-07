@@ -21,7 +21,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Exhangify",
+    title: "Exchangify",
     description:
       "Exchangify is a beautifully crafted, responsive currency converter web application that delivers accurate and real-time currency exchange rates using the Frankfurter API. Designed with a focus on usability and simplicity, it allows users to instantly convert between global currencies, mark favorites, and view recent conversions — all wrapped in a smooth, modern UI.",
     image: "/projects/exchangify.png",
