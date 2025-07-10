@@ -21,6 +21,23 @@ const projects = [
   },
   {
     id: 2,
+    title: "HelloWorld",
+    description:`Fluency starts with a ‘Hello’.
+HelloWorld is a user-friendly language exchange platform that connects people from around the world through real-time chat and video calls. Designed to make language learning social and engaging, it features friend requests, intuitive profiles, and a clean, responsive interface.`,
+     
+    image: "/projects/HelloWorld.png",
+    tags: [
+      "Frontend: React.js, DaisyUI, Tailwind CSS",
+      "Backend: Node.js, Express.js, MongoDB",
+      "State Management: TanStack Query (React Query)",
+      "Communication: Stream Chat (Chat & Video Call Integration) ",
+      "Deployment: Hosted on Render",
+    ],
+    demoUrl: "https://helloworld-1x7k.onrender.com/",
+    githubUrl: "https://github.com/isaumya14/HelloWorld",
+  }
+  {
+    id: 3,
     title: "Exchangify",
     description:
       "Exchangify is a beautifully crafted, responsive currency converter web application that delivers accurate and real-time currency exchange rates using the Frankfurter API. Designed with a focus on usability and simplicity, it allows users to instantly convert between global currencies, mark favorites, and view recent conversions — all wrapped in a smooth, modern UI.",
@@ -35,7 +52,7 @@ const projects = [
     githubUrl: "https://github.com/isaumya14/exchangify",
   },
   {
-    id: 3,
+    id: 4,
     title: "Dice Game",
     description:
       "Playing With Dices is a minimal yet engaging dice-rolling web app built with React. It offers a fun and interactive way for users to roll virtual dice, choose lucky numbers, and test their luck. The app dynamically updates scores and messages, making it a great blend of random logic, conditional rendering, and user interaction.",
