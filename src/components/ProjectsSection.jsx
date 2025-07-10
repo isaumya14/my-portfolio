@@ -35,7 +35,7 @@ HelloWorld is a user-friendly language exchange platform that connects people fr
     ],
     demoUrl: "https://helloworld-1x7k.onrender.com/",
     githubUrl: "https://github.com/isaumya14/HelloWorld",
-  }
+  },
   {
     id: 3,
     title: "Exchangify",
