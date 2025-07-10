@@ -28,7 +28,7 @@ const projects = [
     tags: [
       "Frontend: React.js, DaisyUI, Tailwind CSS",
       "Backend: Node.js, Express.js, MongoDB",
-      "State Management: TanStack Query (React Query)",
+      "State Management: TanStack Query , Zustand",
       " Stream Chat (Chat & Video Call Integration) ",
       "Deployment: Hosted on Render",
     ],
