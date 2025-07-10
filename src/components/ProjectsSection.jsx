@@ -22,15 +22,14 @@ const projects = [
   {
     id: 2,
     title: "HelloWorld",
-    description:`Fluency starts with a ‘Hello’.
-HelloWorld is a user-friendly language exchange platform that connects people from around the world through real-time chat and video calls. Designed to make language learning social and engaging, it features friend requests, intuitive profiles, and a clean, responsive interface.`,
+    description:`Fluency starts with a ‘Hello’. HelloWorld is a user-friendly language exchange platform that connects people from around the world through real-time chat and video calls. Designed to make language learning social and engaging, it features friend requests, intuitive profiles, and a clean, responsive interface.`,
      
     image: "/projects/HelloWorld.png",
     tags: [
       "Frontend: React.js, DaisyUI, Tailwind CSS",
       "Backend: Node.js, Express.js, MongoDB",
       "State Management: TanStack Query (React Query)",
-      "Communication: Stream Chat (Chat & Video Call Integration) ",
+      " Stream Chat (Chat & Video Call Integration) ",
       "Deployment: Hosted on Render",
     ],
     demoUrl: "https://helloworld-1x7k.onrender.com/",
