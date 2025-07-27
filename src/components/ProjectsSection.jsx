@@ -37,6 +37,21 @@ const projects = [
   },
   {
     id: 3,
+    title: "CrackIT - Interview Prep AI",
+    description: `CrackIT is an AI-powered platform that helps users prepare for interviews by simulating real-world, voice-based interview experiences. Built using the Vapi voice AI platform, it enables role-specific mock interviews, delivers personalized feedback, and even allows users to view and learn from peer interviews. With a clean UI built using ShadCN and Tailwind, it offers an engaging and intuitive prep experience.`,
+  
+    image: "/projects/CrackIT.png", // Replace with actual image path
+    tags: [
+      "Frontend: Next.js, TypeScript, Tailwind CSS, ShadCN/UI",
+      "Backend: Firebase (Auth, Firestore)",
+      "Voice AI: Vapi (Voice Interaction, Assistant Integration)",
+      "Deployment: Hosted on Vercel",
+    ],
+    demoUrl: "https://crack-it-interview-prep-ai.vercel.app/sign-in",
+    githubUrl: "https://github.com/isaumya14/CrackIT-interview_prep_AI",
+  },
+  {
+    id: 4,
     title: "Exchangify",
     description:
       "Exchangify is a beautifully crafted, responsive currency converter web application that delivers accurate and real-time currency exchange rates using the Frankfurter API. Designed with a focus on usability and simplicity, it allows users to instantly convert between global currencies, mark favorites, and view recent conversions — all wrapped in a smooth, modern UI.",
@@ -51,7 +66,7 @@ const projects = [
     githubUrl: "https://github.com/isaumya14/exchangify",
   },
   {
-    id: 4,
+    id: 5,
     title: "Dice Game",
     description:
       "Playing With Dices is a minimal yet engaging dice-rolling web app built with React. It offers a fun and interactive way for users to roll virtual dice, choose lucky numbers, and test their luck. The app dynamically updates scores and messages, making it a great blend of random logic, conditional rendering, and user interaction.",
