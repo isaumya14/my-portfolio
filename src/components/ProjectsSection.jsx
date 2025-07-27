@@ -47,7 +47,7 @@ const projects = [
       "Voice AI: Vapi (Voice Interaction, Assistant Integration)",
       "Deployment: Hosted on Vercel",
     ],
-    demoUrl: "https://crack-it-interview-prep-ai.vercel.app/sign-in",
+    demoUrl: "https://crack-it-interview-prep-ai-opgn.vercel.app/",
     githubUrl: "https://github.com/isaumya14/CrackIT-interview_prep_AI",
   },
   {
