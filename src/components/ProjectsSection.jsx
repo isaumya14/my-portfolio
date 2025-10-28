@@ -52,6 +52,23 @@ const projects = [
   },
   {
     id: 4,
+    title: "BudgetIQ - AI Finance Tracker",
+    description:
+      "BudgetIQ is an AI-powered finance management web application that automates expense tracking and reporting through intelligent receipt scanning. It provides users with interactive financial dashboards and secure data handling using modern full-stack technologies.",
+    image: "/projects/BudgetIQ.png",
+    tags: [
+      "Frontend: Next.js, TypeScript, Tailwind CSS",
+      "Backend: Supabase, Prisma",
+      "Authentication: Clerk",
+      "Security: Arcjet for rate limiting and bot prevention",
+      "AI Features: Automated expense recognition via receipt scanning",
+      "Deployment: Vercel"
+    ],
+    demoUrl: "https://budget-iq-ai-finance-tracker-hsl6.vercel.app/",
+    githubUrl: "https://github.com/isaumya14/BudgetIQ-AI-finance-Tracker"
+  },
+  {
+    id: 5,
     title: "Exchangify",
     description:
       "Exchangify is a beautifully crafted, responsive currency converter web application that delivers accurate and real-time currency exchange rates using the Frankfurter API. Designed with a focus on usability and simplicity, it allows users to instantly convert between global currencies, mark favorites, and view recent conversions — all wrapped in a smooth, modern UI.",
@@ -66,7 +83,7 @@ const projects = [
     githubUrl: "https://github.com/isaumya14/exchangify",
   },
   {
-    id: 5,
+    id: 6,
     title: "Dice Game",
     description:
       "Playing With Dices is a minimal yet engaging dice-rolling web app built with React. It offers a fun and interactive way for users to roll virtual dice, choose lucky numbers, and test their luck. The app dynamically updates scores and messages, making it a great blend of random logic, conditional rendering, and user interaction.",

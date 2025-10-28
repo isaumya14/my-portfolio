@@ -2,20 +2,25 @@ import React, { useState } from "react";
 import { cn } from "../lib/utils";
 
 const skills = [
+  // Frontend
   { name: "HTML/CSS", level: 95, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
+  { name: "TypeScript", level: 90, category: "frontend" },
   { name: "React", level: 90, category: "frontend" },
+  { name: "Next.js", level: 80, category: "frontend" },
+  { name: "Angular", level: 85, category: "frontend" },
   { name: "Tailwind CSS", level: 85, category: "frontend" },
   { name: "Bootstrap", level: 75, category: "frontend" },
   { name: "Styled-components", level: 70, category: "frontend" },
 
-
-
   // Backend
   { name: "Node.js", level: 85, category: "backend" },
   { name: "Express", level: 85, category: "backend" },
+  { name: "Spring Boot", level: 70, category: "backend" },
   { name: "MongoDB", level: 85, category: "backend" },
+  { name: "PostgreSQL", level: 85, category: "backend" },
   { name: "SQL", level: 70, category: "backend" },
+  { name: "RESTful APIs", level: 80, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
@@ -23,13 +28,18 @@ const skills = [
   { name: "MongoDB Compass", level: 80, category: "tools" },
   { name: "MongoDB Atlas", level: 80, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
+  { name: "DBeaver", level: 90, category: "tools" },
+  { name: "Linux", level: 70, category: "tools" },
+  { name: "Docker", level: 50, category: "tools" },
+  { name: "AWS", level: 50, category: "tools" },
 
-    // Programming Languages
-    { name: "C++", level: 95, category: "programming" },
-    { name: "C", level: 80, category: "programming" },
-    { name: "Python", level: 60, category: "programming" },
-    { name: "Java", level: 50, category: "programming" },
+  // Programming Languages
+  { name: "C++", level: 95, category: "programming" },
+  { name: "C", level: 80, category: "programming" },
+  { name: "Python", level: 60, category: "programming" },
+  { name: "Java", level: 50, category: "programming" },
 ];
+
 
 const categories = ["all", "frontend", "backend", "tools", "programming"];
 
